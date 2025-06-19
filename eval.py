@@ -121,7 +121,7 @@ if __name__ == '__main__':
     print('Total Params = ' + str(total_params/1000**2) + 'M')
 
 
-    model.load_state_dict(torch.load(f'/home/Qing_Xu/hd1/xq/IJCAI2025/medsam2/outputs/sam2_adapter_final_best.pth'), strict=True)
+    model.load_state_dict(torch.load(f'/home/***/hd1/***/medsam2/outputs/sam2_adapter_final_best.pth'), strict=True)
 
     # model.load_state_dict(torch.load(f'/home/***/medsam2/outputs/small_ultra_20.pth'), strict=True)
     # pretrain_dict = torch.load('/home/***/medsam2/outputs/sam2_adapter_final_best.pth')
