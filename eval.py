@@ -70,7 +70,7 @@ if __name__ == '__main__':
     parser.add_argument('--gt_path', default='mask_1024',type=str, help='mask_1024_c1, mask_1024_')
     parser.add_argument('--jsonfile', default='data_split.json',type=str, help='')
     parser.add_argument('--size', type=int, default=1024, help='epoches')
-    parser.add_argument('--model',default='/home/Qing_Xu/pretrain/sam2_hiera_large.pt', type=str, help='/home/Qing_Xu/pretrain/sam-med2d_b.pth, medsam_box_best_vitb, sam_vit_b_01ec64, medsam_vit_b, sam-med2d_b')
+    parser.add_argument('--model',default='/home/***/pretrain/sam2_hiera_large.pt', type=str, help='/home/***/pretrain/sam-med2d_b.pth, medsam_box_best_vitb, sam_vit_b_01ec64, medsam_vit_b, sam-med2d_b')
     args = parser.parse_args()
     
     save_png = f'visual/{args.dataset}/oursL/'
@@ -121,7 +121,7 @@ if __name__ == '__main__':
     print('Total Params = ' + str(total_params/1000**2) + 'M')
 
 
-    model.load_state_dict(torch.load(f'/home/Qing_Xu/hd1/xq/IJCAI2025/medsam2/outputs/sam2_adapter_final_best.pth'), strict=True)
+    model.load_state_dict(torch.load(f'/home/***/medsam2/outputs/sam2_adapter_final_best.pth'), strict=True)
 
     # model.load_state_dict(torch.load(f'/home/***/medsam2/outputs/small_ultra_20.pth'), strict=True)
     # pretrain_dict = torch.load('/home/***/medsam2/outputs/sam2_adapter_final_best.pth')

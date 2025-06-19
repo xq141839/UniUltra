@@ -114,7 +114,7 @@ def train_model(model, criterion_mask, optimizer, scheduler, num_epochs=5):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--dataset', type=str,default='all', help='BUSI, DDTI, TN3K, UDIAT, TNBC')
-    parser.add_argument('--sam_pretrain', type=str,default='/home/Qing_Xu/pretrain/sam2_hiera_large.pt', 
+    parser.add_argument('--sam_pretrain', type=str,default='/home/***/pretrain/sam2_hiera_large.pt', 
     help='pretrain/sam_vit_b_01ec64.pth, medsam_box_best_vitb.pth, medsam_vit_b, efficient_sam_vits, mobile_sam')
     parser.add_argument('--jsonfile', type=str,default='data_split.json', help='')
     parser.add_argument('--batch', type=int, default=4, help='batch size')
@@ -125,7 +125,7 @@ if __name__ == '__main__':
 
     os.makedirs('outputs/', exist_ok=True)
 
-    jsonfile1 = f'/home/Qing_Xu/IJCAI2025/FTSAM/datasets/BUSI/data_split.json'
+    jsonfile1 = f'/home/***/***/FTSAM/datasets/BUSI/data_split.json'
     
     with open(jsonfile1, 'r') as f:
         df1 = json.load(f)
@@ -133,7 +133,7 @@ if __name__ == '__main__':
         print(f'BUSI: {train_size}')
         train_set1 = np.random.choice(df1['train'],train_size,replace=False)
 
-    jsonfile2 = f'/home/Qing_Xu/IJCAI2025/FTSAM/datasets/DDTI/data_split.json'
+    jsonfile2 = f'/home/***/***/FTSAM/datasets/DDTI/data_split.json'
     
     with open(jsonfile2, 'r') as f:
         df2 = json.load(f)
@@ -141,7 +141,7 @@ if __name__ == '__main__':
         print(f'DDTI: {train_size}')
         train_set2 = np.random.choice(df2['train'],train_size,replace=False)
 
-    jsonfile3 = f'/home/Qing_Xu/IJCAI2025/FTSAM/datasets/TN3K/data_split.json'
+    jsonfile3 = f'/home/***/***/FTSAM/datasets/TN3K/data_split.json'
     
     with open(jsonfile3, 'r') as f:
         df3 = json.load(f)
@@ -149,7 +149,7 @@ if __name__ == '__main__':
         train_set3 = np.random.choice(df3['train'],train_size,replace=False)
         print(f'TN3K: {train_size}')
 
-    jsonfile4 = f'/home/Qing_Xu/IJCAI2025/FTSAM/datasets/UDIAT/data_split.json'
+    jsonfile4 = f'/home/***/***/FTSAM/datasets/UDIAT/data_split.json'
     
     with open(jsonfile4, 'r') as f:
         df4 = json.load(f)

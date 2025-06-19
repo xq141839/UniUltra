@@ -5,7 +5,7 @@ from model import SAM2
 from sam2.build_sam import build_sam2
 
 
-sam_pretrain='/home/Qing_Xu/pretrain/sam2_hiera_large.pt'
+sam_pretrain='/home/***/pretrain/sam2_hiera_large.pt'
 
 model_cfg = "sam2_hiera_mini.yaml"
 # hydra is initialized on import of sam2, which sets the search path which can't be modified
