@@ -1,4 +1,4 @@
-# *Co-Seg++*: Mutual Prompt-Guided Collaborative Learning for Versatile Medical Segmentation
+# UniUltra: Interactive Parameter-Efficient SAM2 for Universal Ultrasound Segmentation
 <p align="center">
   <img src="logo.png" alt="" width="600" height="200">
 </p>
@@ -7,7 +7,7 @@
 [[`arXiv`]()] 
 
 -------------------------------------------
-![introduction](figs/method.png)
+![introduction](fig_framework.png)
 
 ## 📰News
 
