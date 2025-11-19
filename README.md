@@ -20,7 +20,7 @@ cd UniUltra
 conda create -f UniUltra.yaml
 ```
 
-**Key requirements**: Cuda 12.2+, PyTorch 2.4+, mamba-ssm 2.1.0+
+**Key requirements**: Cuda 12.2+, PyTorch 2.4+
 
 ## 📚Data Preparation
 
