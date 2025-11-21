@@ -25,7 +25,7 @@ conda create -f UniUltra.yaml
 ## 📚Data Preparation
 
 
-The data structure is as follows.
+The data structure is as follows...
 ```
 UniUltra
 ├── datasets
