@@ -1,4 +1,4 @@
-# *UniUltra*: Interactive Parameter-Efficient SAM2 for Universal Ultrasound Segmentation
+# TMM 2025|UniUltra: Interactive Parameter-Efficient SAM2 for Universal Ultrasound Segmentation
 <p align="center">
   <img src="logo.png" alt="" width="600" height="200">
 </p>
