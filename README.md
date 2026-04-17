@@ -40,7 +40,14 @@ UniUltra
 
 ## 📜Citation
 If you find this work helpful for your project, please consider citing the following paper:
-
+```
+@article{li2025uniultra,
+  title={UniUltra: Interactive Parameter-Efficient SAM2 for Universal Ultrasound Segmentation},
+  author={Li, Yue and Xu, Qing and Zhang, Yixuan and He, Xiangjian and Zhang, Qian and Yao, Yuan and Tesem, Fiseha B and Chen, Xin and Wang, Ruili and Chen, Zhen and others},
+  journal={arXiv preprint arXiv:2511.15771},
+  year={2025}
+}
+```
 
 ## Acknowledgements
 
